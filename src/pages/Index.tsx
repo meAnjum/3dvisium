@@ -12,9 +12,9 @@ const Index = () => {
         <div className="absolute inset-0">
           <Globe />
         </div>
-        <div className="container mx-auto text-center mt-auto z-10 mb-12">
-          <h1 className="text-5xl font-bold mb-4">Crime.si</h1>
-          <p className="text-lg text-gray-400 mb-6">Advanced Security Analytics Platform for Modern Enterprises</p>
+        <div className="container mx-auto text-center mt-auto z-10 mb-8">
+          <h1 className="text-5xl font-bold mb-3">Crime.si</h1>
+          <p className="text-lg text-gray-400 mb-4">Advanced Security Analytics Platform for Modern Enterprises</p>
           <p className="text-base text-gray-500">Protecting your digital assets with cutting-edge AI and machine learning</p>
         </div>
       </section>
