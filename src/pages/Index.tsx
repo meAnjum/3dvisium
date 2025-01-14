@@ -7,11 +7,11 @@ import { ContactForm } from '@/components/ContactForm';
 const Index = () => {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      {/* Hero Section - Reduced height */}
+      <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
         <div className="container mx-auto text-center z-10">
-          <h1 className="text-6xl font-bold mb-6">Crime.si</h1>
-          <p className="text-xl text-gray-400 mb-8">Advanced Security Analytics Platform</p>
+          <h1 className="text-5xl font-bold mb-4">Crime.si</h1>
+          <p className="text-lg text-gray-400 mb-6">Advanced Security Analytics Platform</p>
         </div>
         <div className="absolute inset-0 -z-10">
           <Globe />
