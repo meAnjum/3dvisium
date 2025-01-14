@@ -8,13 +8,6 @@ export const Globe = () => {
   useEffect(() => {
     if (!containerRef.current) return;
 
-    // Check for WebGL support
-    if (!THREE.WEBGL.isWebGLAvailable()) {
-      const warning = THREE.WEBGL.getWebGLErrorMessage();
-      containerRef.current.appendChild(warning);
-      return;
-    }
-
     try {
       // Scene setup
       const scene = new THREE.Scene();
@@ -23,7 +16,7 @@ export const Globe = () => {
         antialias: true, 
         alpha: true,
         powerPreference: "high-performance",
-        failIfMajorPerformanceCaveat: false
+        failIfMajorPerformanceCaveat: true
       });
       
       renderer.setSize(containerRef.current.clientWidth, containerRef.current.clientHeight);
