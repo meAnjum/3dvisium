@@ -7,15 +7,15 @@ import { ContactForm } from '@/components/ContactForm';
 const Index = () => {
   return (
     <div className="min-h-screen">
-      {/* Hero Section - Reduced height */}
-      <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
-        <div className="container mx-auto text-center z-10">
+      {/* Hero Section */}
+      <section className="relative h-[70vh] flex flex-col items-center justify-center overflow-hidden">
+        <div className="absolute inset-0">
+          <Globe />
+        </div>
+        <div className="container mx-auto text-center mt-auto z-10 mb-12">
           <h1 className="text-5xl font-bold mb-4">Crime.si</h1>
           <p className="text-lg text-gray-400 mb-6">Advanced Security Analytics Platform for Modern Enterprises</p>
           <p className="text-base text-gray-500">Protecting your digital assets with cutting-edge AI and machine learning</p>
-        </div>
-        <div className="absolute inset-0 -z-10">
-          <Globe />
         </div>
       </section>
 
