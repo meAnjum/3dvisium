@@ -9,6 +9,14 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[70vh] flex flex-col items-center justify-center overflow-hidden">
+        {/* Hero Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+            alt="Circuit Board Background"
+            className="w-full h-full object-cover opacity-20"
+          />
+        </div>
         <div className="absolute inset-0">
           <Globe />
         </div>
